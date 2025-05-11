@@ -1,48 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f9f9f9;
+  font-family: 'Arial', sans-serif;
+  background: #f9f9f9;
+  color: #333;
 }
+
 header {
-    background: #ff595e;
-    color: white;
-    text-align: center;
-    padding: 2em 1em;
+  background: #0aa0b4;
+  color: white;
+  text-align: center;
+  padding: 1.5em 0;
+  font-size: 1.5em;
 }
-.products {
-    padding: 2em;
-    text-align: center;
+
+.hero {
+  background: url('https://via.placeholder.com/800x400') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 4em 2em;
 }
-.product-list {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1.5em;
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 2em;
+  border-radius: 10px;
 }
-.product {
-    background: white;
-    padding: 1em;
-    border-radius: 10px;
-    width: 200px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+.about {
+  background: #ffffff;
+  padding: 4em 2em;
+  text-align: center;
 }
-.product img {
-    width: 100%;
-    border-radius: 8px;
+
+.about h2 {
+  color: #0aa0b4;
+  margin-bottom: 1em;
 }
+
+.about h2 span {
+  color: #333;
+}
+
+.btn-orange {
+  display: inline-block;
+  margin-top: 1.5em;
+  background: orange;
+  color: white;
+  padding: 0.8em 1.5em;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn-orange:hover {
+  background: #e69500;
+}
+
 footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 1em;
-}
-.whatsapp-button {
-    display: inline-block;
-    background: #25D366;
-    color: white;
-    padding: 0.7em 1.5em;
-    margin-bottom: 1em;
-    border-radius: 5px;
-    text-decoration: none;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
 }
