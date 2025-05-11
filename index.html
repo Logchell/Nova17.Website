@@ -2,34 +2,55 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mainan Nova</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    nav {
+      background-color: #ffc107;
+      padding: 1em;
+      display: flex;
+      justify-content: space-around;
+    }
+    nav a {
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 10px;
+      border-radius: 10px;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Mainan Nova</h1>
-  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#produk">Produk</a>
+    <a href="#kontak">Kontak</a>
+    <a href="https://wa.me/6281568224502" target="_blank">WhatsApp</a>
+  </nav>
 
-  <section class="hero">
-    <div class="hero-content">
-      <h2>Toko Mainan Edukatif & Kreatif</h2>
-      <p>Solusi mainan anak yang seru, aman, dan mendidik.</p>
-      <a href="#about" class="btn-orange">Pelajari Lebih Lanjut</a>
-    </div>
+  <section id="home">
+    <h1>Selamat Datang di Mainan Nova</h1>
+    <p>Toko mainan terpercaya dan lengkap untuk anak-anak!</p>
+    <img src="img/gambar_home.jpg" alt="Banner Home">
   </section>
 
-  <section id="about" class="about">
-    <h2>Tentang <span>Mainan Nova</span></h2>
-    <p>
-      Kami menyediakan berbagai mainan edukatif dan kreatif untuk anak-anak. 
-      Produk kami membantu perkembangan motorik, logika, dan imajinasi anak.
-    </p>
-    <a href="https://wa.me/6281568224502" class="btn-orange">Hubungi via WhatsApp</a>
+  <section id="produk">
+    <h2>Produk Unggulan</h2>
+    <p>Kami menyediakan berbagai jenis mainan edukatif dan menarik.</p>
+    <img src="img/gambar_produk.jpg" alt="Gambar Produk">
   </section>
 
-  <footer>
-    <p>&copy; 2025 Mainan Nova. All rights reserved.</p>
-  </footer>
+  <section id="kontak">
+    <h2>Kontak Kami</h2>
+    <p>Hubungi kami untuk informasi lebih lanjut.</p>
+    <img src="img/gambar_kontak.jpg" alt="Gambar Kontak">
+  </section>
 </body>
 </html>
